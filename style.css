@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body{
+    /* position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+body:before {
+    /* content: '';
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0%;
+    background: /* older syntax */
+        -webkit-radial-gradient(50% 0, circle, 
+            rgba(255,0,0,.5), rgba(255,0,0,0) 70.71%), 
+        -webkit-radial-gradient(6.7% 75%, circle, 
+            rgba(0,0,255,.5), rgba(0,0,255,0) 70.71%), 
+        -webkit-radial-gradient(93.3% 75%, circle, 
+            rgba(0,255,0,.5), rgba(0,255,0,0) 70.71%);
+    background: /* newest syntax */
+    radial-gradient(circle at 50% 0, 
+            rgba(255,0,0,.5), rgba(255,0,0,0) 70.71%), 
+    radial-gradient(circle at 6.7% 75%, 
+            rgba(0,0,255,.5), rgba(0,0,255,0) 70.71%), 
+    radial-gradient(circle at 93.3% 75%, 
+            rgba(0,255,0,.5), rgba(0,255,0,0) 70.71%); */
+}
+
+.grid-container{
+    background-color: rgb(168, 168, 168);
+    width: 512px;
+    height: 512px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pixel {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(152, 175, 206);
+    border: 1px solid rgb(85, 85, 85);
+}

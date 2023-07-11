@@ -1,3 +1,3 @@
 # sketchpad
 
-Learning JS with The Odin's Project
+Learning JS with The Odin's Project.
