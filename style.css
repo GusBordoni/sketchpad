@@ -45,7 +45,7 @@ body:before {
             rgba(0,255,0,.5), rgba(0,255,0,0) 70.71%); */
 }
 
-.grid-container{
+#grid-container{
     background-color: rgb(168, 168, 168);
     width: 512px;
     height: 512px;
