@@ -16,6 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
     
 body:before {
@@ -49,14 +50,18 @@ body:before {
     background-color: rgb(168, 168, 168);
     width: 512px;
     height: 512px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-columns: repeat(16,1fr);
 }
 
 .pixel {
-    width: 32px;
-    height: 32px;
     background-color: rgb(152, 175, 206);
     border: 1px solid rgb(85, 85, 85);
+}
+
+#slider{
+    min-width: 300px;
+    width: 80vw;
+    max-width: 512px;
 }
