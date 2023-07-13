@@ -4,6 +4,7 @@ const gridValue = document.querySelector('#grid-value');
 const slider = document.querySelector('#slider');
 let pixelCount = slider.value;
 let mouseDown = false;
+let chosenColor = 'black';
 
 document.body.onmousedown = () => (mouseDown = true);
 document.body.onmouseup = () => (mouseDown = false);
@@ -29,6 +30,24 @@ function clearGrid(){
     gridContainer.innerHTML = '';
 }
 
+function clearPainting(){
+    clearGrid();
+    setGrid(pixelCount);
+}
+
+function eraser(){
+    if (chosenColor === 'black'){
+        chosenColor = 'white';
+    } else {chosenColor = 'black'};
+    
+}
+
+function toggleGridLines(){ // criar uma nova classe e dar toggle
+    gridContainer.classList.toggle('gridContainerGap');
+};
+
+
+// slider update
 slider.addEventListener('change', function(){
     setTimeout(() => {
         clearGrid();
@@ -41,16 +60,11 @@ slider.addEventListener('input', function(){
     gridValue.textContent = slider.value;
 })
 
-
-
-
-
-
-
-function changeColor(e) {
+function changeColor(e, color) {
     if (e.type === 'mouseover' && !mouseDown) return;
     if (e.type === 'mousedown' || mouseDown) {
-        e.target.style.backgroundColor = 'black';
+        color = chosenColor;
+        e.target.style.backgroundColor = color;
     }
 }
 
