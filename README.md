@@ -5,16 +5,17 @@ Learning JS with The Odin's Project.
 Next Steps:
 
 1st priority:
-- Pick color
-- Eraser
-- Rainbow mode - https://artis-dev.github.io/etch-a-sketch/ | https://mooniidev.github.io/etch-a-sketch-toy/
-- Shadding/Lighten
+- Pick color :heavy_check_mark:
+- Eraser :heavy_check_mark:
+- Rainbow mode - :heavy_check_mark:
+- Shadding/Lighten ... in progress
 - Reset grid button :heavy_check_mark:
 - Github button 
 - Cross cursor :heavy_check_mark:
 - Sharp square / some border radius
 - Toggle grid lines :heavy_check_mark:
-- thiner grid line :heavy_check_mark:
+- Thiner grid line :heavy_check_mark:
+- Menu buttons with Color/Palette Color/Eraser/Darkening/Lightnening/Grabber
 
 2nd:
 - Better overal design - https://artis-dev.github.io/etch-a-sketch/

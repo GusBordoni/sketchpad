@@ -10,10 +10,41 @@
 <body>
     <div id="options">
         <p>advanced options</p>
-        <input id="colorPicker" type="color" value="#333333" />
+        <div id="colorPickContainer">
+            <input id="colorPicker" type="color" value="#000000" />
+            <input id="colorPickerBG" type="color" value="#CECECE" />
+        </div>
         <button class="" onclick="clearPainting()">Clear</button>
-        <button class="" onclick="toggleGridLines()">Toggle Grids</button>
-        <button class="" onclick="eraser()">Eraser</button>
+        <div>
+            <p>Toggle Grid Lines</p>
+            <label class="switch">
+                <input type="checkbox" onchange="toggleGridLines()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div>
+            <p>Toggle Eraser</p>
+            <label class="switch">
+                <input type="checkbox" onchange="eraser()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div>
+            <p>Toggle Darkening</p>
+            <label class="switch">
+                <input type="checkbox" onchange="eraser()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <select name="colorPalette" id="colorPalletes">
+            <option value="color">Color</option>
+            <option value="rainbow">Rainbow</option>
+            <option value="warm">Warm</option>
+            <option value="cold">Cold</option>
+            <option value="psychedelic">Psychedelic Candy</option>
+            <option value="warmncold">Warm 'n Cold</option>
+            <option value="xmas">X-mas</option>
+        </select>
     </div>
     <div>
         <div id="grid-container" class="gridContainerGap">
