@@ -18,21 +18,21 @@
         <div>
             <p>Toggle Grid Lines</p>
             <label class="switch">
-                <input type="checkbox" onchange="toggleGridLines()">
+                <input type="checkbox" id="gridCheckbox" onchange="toggleGridLines()">
                 <span class="slider round"></span>
             </label>
         </div>
         <div>
             <p>Toggle Eraser</p>
             <label class="switch">
-                <input type="checkbox" onchange="eraser()">
+                <input type="checkbox" id="eraserCheckbox" onchange="eraser()">
                 <span class="slider round"></span>
             </label>
         </div>
         <div>
             <p>Toggle Darkening</p>
             <label class="switch">
-                <input type="checkbox" onchange="eraser()">
+                <input type="checkbox" id="darkerCheckbox" onchange="darker()">
                 <span class="slider round"></span>
             </label>
         </div>
@@ -44,6 +44,8 @@
             <option value="psychedelic">Psychedelic Candy</option>
             <option value="warmncold">Warm 'n Cold</option>
             <option value="xmas">X-mas</option>
+            <option value="modern">Modern</option>
+            <option value="grayscale">Grayscale</option>
         </select>
     </div>
     <div>

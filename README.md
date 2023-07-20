@@ -10,22 +10,23 @@ Next Steps:
 - Rainbow mode - :heavy_check_mark:
 - Shadding/Lighten ... in progress
 - Reset grid button :heavy_check_mark:
-- Github button 
+- Github button / OdinProjects 
 - Cross cursor :heavy_check_mark:
-- Sharp square / some border radius
 - Toggle grid lines :heavy_check_mark:
 - Thiner grid line :heavy_check_mark:
 - Menu buttons with Color/Palette Color/Eraser/Darkening/Lightnening/Grabber
 
 2nd:
-- Better overal design - https://artis-dev.github.io/etch-a-sketch/
+- Better overal design - https://artis-dev.github.io/etch-a-sketch/ | https://evoworld1.github.io/Etch-a-sketch/
 - Chose background color
-
-3rd:
-- color while hover - https://andrewjh271.github.io/etch-a-sketch/
-- Color grabber
+- Color change/clear transition
 
 Maybe:
+- Color while hover - https://andrewjh271.github.io/etch-a-sketch/
+- Color grabber
 - Change language Etch-a-Sketch / Traço Mágico
 - Dark theme
 - Color Fill? - https://bscottnz.github.io/esketch/ :x:	 *Maybe some day in the future. Maybe not.*
+- Rotating knobs - https://abarnes1.github.io/etch-a-sketch/
+- Export to img - https://deanwagner.github.io/paint/
+- Grid opacity
